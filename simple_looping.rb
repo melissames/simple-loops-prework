@@ -58,5 +58,9 @@ def for_iterator(number_of_times)
   # remember that `for` requires a range of numbers. How can we turn our number into a range?
 
   phrase = "Welcome to Flatiron School's Web Development Course!"
+  number_range = 1..number_of_times
 
+  for number in number_range
+    puts number_of_times
+  end
 end
