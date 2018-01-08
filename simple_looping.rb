@@ -61,6 +61,6 @@ def for_iterator(number_of_times)
   number_range = 1..number_of_times
 
   for number in number_range
-    puts number_of_times
+    puts phrase
   end
 end
